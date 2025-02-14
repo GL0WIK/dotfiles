@@ -1,0 +1,230 @@
+{
+  "schemes" : [
+    {
+      "scrolling" : {
+        "distance" : 3,
+        "reverse" : true
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0x2022",
+          "productName" : "Model O Wireless",
+          "category" : "mouse",
+          "serialNumber" : "000000000000",
+          "vendorID" : "0x258a"
+        }
+      },
+      "buttons" : {
+        "universalBackForward" : true,
+        "mappings" : [
+          {
+            "command" : false,
+            "option" : false,
+            "control" : false,
+            "action" : "mouse.button.back",
+            "button" : 3,
+            "shift" : false
+          },
+          {
+            "button" : 4,
+            "shift" : false,
+            "option" : false,
+            "action" : "mouse.button.forward",
+            "command" : false,
+            "control" : false
+          }
+        ]
+      },
+      "pointer" : {
+        "acceleration" : 1,
+        "speed" : 0.28,
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productName" : "Dell MS116 USB Optical Mouse",
+          "category" : "mouse",
+          "vendorID" : "0x413c",
+          "productID" : "0x301a"
+        }
+      },
+      "scrolling" : {
+        "distance" : 3,
+        "reverse" : true
+      },
+      "pointer" : {
+        "speed" : 0.23,
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productID" : "0x1b1c",
+          "vendorID" : "0x1bae",
+          "category" : "mouse",
+          "productName" : "KATAR PRO Wireless"
+        }
+      },
+      "scrolling" : {
+        "distance" : 3,
+        "reverse" : true
+      },
+      "pointer" : {
+        "speed" : 0.07000000000000001,
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "buttons" : {
+        "mappings" : [
+          {
+            "button" : 3,
+            "shift" : false,
+            "control" : false,
+            "option" : false,
+            "command" : false,
+            "action" : "mouse.button.back"
+          },
+          {
+            "control" : false,
+            "button" : 4,
+            "shift" : false,
+            "action" : "mouse.button.forward",
+            "option" : false,
+            "command" : false
+          }
+        ]
+      },
+      "scrolling" : {
+        "reverse" : true,
+        "distance" : 3
+      },
+      "pointer" : {
+        "acceleration" : 1,
+        "disableAcceleration" : true
+      },
+      "if" : {
+        "device" : {
+          "serialNumber" : "000000000000",
+          "productID" : "0x2011",
+          "category" : "mouse",
+          "vendorID" : "0x258a",
+          "productName" : "Model O Wireless"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "serialNumber" : "17FB57629E1C3B2E",
+          "category" : "mouse",
+          "productID" : "0x1b65",
+          "vendorID" : "0x1b1c",
+          "productName" : "CORSAIR HARPOON RGB WIRELESS Gaming Dongle"
+        }
+      },
+      "scrolling" : {
+        "distance" : 3,
+        "reverse" : true
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xa8",
+          "vendorID" : "0xe8f",
+          "productName" : "2.4G RX"
+        }
+      },
+      "scrolling" : {
+        "reverse" : true,
+        "distance" : 3
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productName" : "MicrosoftÆ Comfort Mouse 4500",
+          "vendorID" : "0x45e",
+          "productID" : "0x76c"
+        }
+      },
+      "buttons" : {
+        "universalBackForward" : true
+      },
+      "scrolling" : {
+        "reverse" : true
+      }
+    },
+    {
+      "pointer" : {
+        "speed" : 0.3
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0xc332",
+          "vendorID" : "0x46d",
+          "productName" : "Gaming Mouse G502",
+          "category" : "mouse",
+          "serialNumber" : "1074364F3336"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productName" : "USB Optical Mouse",
+          "productID" : "0xc05a",
+          "category" : "mouse",
+          "vendorID" : "0x46d"
+        }
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : true
+        },
+        "distance" : {
+          "vertical" : 3
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0,
+        "disableAcceleration" : false,
+        "speed" : 0.2802
+      }
+    },
+    {
+      "pointer" : {
+        "acceleration" : 0.875,
+        "disableAcceleration" : false,
+        "speed" : 0.0689655172413792768
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0x342",
+          "vendorID" : "0x5ac",
+          "category" : "trackpad",
+          "productName" : "Apple Internal Keyboard \/ Trackpad"
+        }
+      }
+    }
+  ],
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0-beta.2"
+}
